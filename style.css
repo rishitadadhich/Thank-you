@@ -1,0 +1,44 @@
+#slider div span {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: block;
+    border-color: #4c4f53;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    border-width: 2px;
+    border-style: solid;
+    padding-right: 71px;
+    padding-left: 72px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#slider {
+    margin-top: 10px;
+}
+
+div {
+    display: block;
+}
+
+body{
+    background-color: #4c4f53;    
+}
+
+#slider div {
+    background-color: rgb(40, 182, 207);
+    position: sticky;
+    height: 50px;
+    width :50px;
+    top: 70px;
+    display: table;
+    list-style: none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+}
+
