@@ -22,7 +22,8 @@ div {
 }
 
 body{
-    background-color: #4c4f53;    
+    background-color: #4c4f53; 
+    background-image: url("./pics/bg.jpeg");   
 }
 
 #slider div {
@@ -42,3 +43,7 @@ body{
     border-width: 2px;
 }
 
+img{
+    width: 300px;
+    height: 300px;
+}
