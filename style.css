@@ -1,7 +1,6 @@
 #slider {
     margin-top: 10px;
 }
-
 #message{
     color: #ffffff;
     font-size: 30px;
@@ -27,12 +26,9 @@ button{
     color: #bbb;
     font-weight: bolder;
 }
-
 .msg:visited{
     color: #ffffff;
 }
-
-
 span{
     font-size: 10px;
     color:#ffffff;
@@ -57,7 +53,6 @@ em{
     padding-top: 10px;
     padding-bottom: 10px;
 }
-
 #slider div {
     background: linear-gradient(to right, #099e42, #af16ca);
     position: sticky;
@@ -74,7 +69,6 @@ em{
     border-style: solid;
     border-width: 2px;
 }
-
 img{
     width: 300px;
     height: 300px;
