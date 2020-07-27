@@ -1,60 +1,69 @@
-#slider div span {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    display: block;
-    border-color: #4c4f53;
-    background-color: #ffffff;
-    margin-bottom: 10px;
-    border-width: 2px;
-    border-style: solid;
-    padding-right: 71px;
-    padding-left: 72px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
 #slider {
     margin-top: 10px;
 }
 
-div {
-    display: block;
-}
+#message{
+    color: #ffffff;
+    font-size: 30px;
+    margin: 20px 50px;
+    background: linear-gradient(to right, #af16ca, #099e42);
+    opacity: 0.75;
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2);
 
+}
 body{
     background-color: #080401; 
-    /* background-image: url("./pics/download.png"); */
+    background-image: url("./pics/ooo.jpg");
+    background-repeat: round;
+    background-attachment: fixed;
     
 }
+button{
+    background: linear-gradient(to right, #af16ca, #099e42);
+    height: 30px;  
+    width: 100px;
+}
+.msg:hover{
+    color: #bbb;
+    font-weight: bolder;
+}
 
+.msg:visited{
+    color: #ffffff;
+}
+
+
+span{
+    font-size: 10px;
+    color:#ffffff;
+}
+em{
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+}
 #header {
     box-shadow: 2px 5px 5px 2px grey;
     position: sticky;
     top: 1vh;
-    background-color: #EC8818;
-    text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
-    font-size: 30px;
+    background: linear-gradient(to right, #af16ca, #099e42);  
+    font-size: 20px;
     color: white;
-    font-weight: bolder;
-    width: 500px;
+    width: 1200px;
     margin: 0 auto;
-    margin-top: 1vh;
-    margin-bottom: 2vh;
     text-align: center;
     border-width: 2px;
     border-style: solid;
-    padding-right: 30px;
-    padding-left: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
 #slider div {
-    background-color: rgb(40, 182, 207);
+    background: linear-gradient(to right, #099e42, #af16ca);
     position: sticky;
     height: 50px;
     width :50px;
-    top: 120px;
+    top: 150px;
     display: table;
     list-style: none;
     text-align: center;
